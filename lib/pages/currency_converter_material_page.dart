@@ -27,8 +27,8 @@ class CurrencyConverterMaterialPage extends StatelessWidget {
                  hintStyle: TextStyle(
                   color: Colors.white
                  ),
-                 prefixIcon:Icon(Icons.monetization_on_outlined),
-                 prefixIconColor: Colors.white
+                 suffixIcon:Icon(Icons.monetization_on_outlined),
+                 suffixIconColor: Colors.white
 
                   
                   ),
