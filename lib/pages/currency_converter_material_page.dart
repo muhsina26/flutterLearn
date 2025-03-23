@@ -25,10 +25,20 @@ class CurrencyConverterMaterialPage extends StatelessWidget {
                 decoration: InputDecoration(
                  hintText: "Please enter the amount in INR",
                  hintStyle: TextStyle(
-                  color: Colors.white
+                  color: Color.fromARGB(255, 8, 8, 8)
                  ),
                  suffixIcon:Icon(Icons.monetization_on_outlined),
-                 suffixIconColor: Colors.white
+                 suffixIconColor: Colors.white,
+                 focusedBorder:OutlineInputBorder(
+                  borderSide: BorderSide(
+                    color: Colors.red,
+                    width: 2.0,
+                    style: BorderStyle.solid,
+                    strokeAlign: BorderSide.strokeAlignCenter
+                  )
+                 ),
+                 filled: true,
+                 fillColor:Colors.amberAccent
 
                   
                   ),
